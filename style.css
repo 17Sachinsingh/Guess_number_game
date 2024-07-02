@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0fa4af;
+    color: #fff;
+}
+.againbtn{
+    padding: 8px;
+    margin: 10px;
+    
+}
+
+.header p{
+    display: inline;
+    float: right ;
+    margin: 10px;
+    font-size: 20px;
+}
+body h2{
+    text-align: center;
+    font-size: 40px;
+    color:#7D0552;
+    
+}
+.container{
+    display: flex;
+    margin-top: 90px;
+    
+}
+.inputdiv{
+    width: 50%;
+    margin-left: 40px;
+
+}
+.number{
+    text-align: center;
+    margin:40px;
+    margin-left:50%;
+    font-size: 45px;
+    background-color:black;
+    height: 60px;
+    width:65px;
+}
+.inputdiv input{
+    width: 180px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    
+    border: none;
+}
+.checkbutton, .againbtn {
+    height: 40px;
+    width:105px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color:#024950;
+    color: #fff;
+    cursor: pointer;
+
+}
+.output{
+    width: 50%;
+}
+p{
+    font-size: 25px;
+}
